@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.input-section {
+    background-color: #f0f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.formula-section {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.formula-section h2 {
+    color: #3498db;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.formula-display {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.result {
+    background-color: #e8f4fc;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.result span {
+    color: #2980b9;
+    margin-right: 10px;
+}
+
+formula {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
